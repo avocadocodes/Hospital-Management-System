@@ -1,8 +1,8 @@
 INSERT INTO Patient(email,password,name,address,gender)
 VALUES
-('ramesh@gmail.com','hrishikesh13','Ramesh','Tamil Nadu', 'male'),
-('suresh@gmail.com','hrishikesh13','Suresh','Karnataka', 'male'),
-('rakesh@gmail.com','hrishikesh13','Rakesh','Gujarat', 'male')
+('karan@gmail.com','hrishikesh13','Karan','Rajasthan', 'male'),
+('uddhav@gmail.com','hrishikesh13','Uddhav','Kerala', 'male'),
+('varun@gmail.com','hrishikesh13','Varun','Bihar', 'male')
 ;
 
 INSERT INTO MedicalHistory(id,date,conditions,surgeries,medication)
@@ -27,9 +27,9 @@ VALUES
 
 INSERT INTO PatientsAttendAppointments(patient,appt,concerns,symptoms)
 VALUES
-('ramesh@gmail.com',1, 'none', 'itchy throat'),
-('suresh@gmail.com',2, 'infection', 'fever'),
-('rakesh@gmail.com',3, 'nausea', 'fever')
+('karan@gmail.com',1, 'none', 'itchy throat'),
+('uddhav@gmail.com',2, 'infection', 'fever'),
+('varun@gmail.com',3, 'nausea', 'fever')
 ;
 
 INSERT INTO Schedule(id,starttime,endtime,breaktime,day)
@@ -44,9 +44,9 @@ VALUES
 
 INSERT INTO PatientsFillHistory(patient,history)
 VALUES
-('ramesh@gmail.com', 1),
-('suresh@gmail.com', 2),
-('rakesh@gmail.com', 3)
+('karan@gmail.com', 1),
+('uddhav@gmail.com', 2),
+('varun@gmail.com', 3)
 ;
 
 INSERT INTO Diagnose(appt,doctor,diagnosis,prescription)
